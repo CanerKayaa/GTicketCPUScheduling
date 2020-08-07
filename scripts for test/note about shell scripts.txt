@@ -1,0 +1,3 @@
+script1.sh starts processes
+
+script2.sh reads the cpu usages of processes 1000 times and writes results into text files. But before running, it deletes previosly created text files. We used grep "user name" in order to find the line of the process. Since usr3 runs two processes, we run top command on terminal first, get the process ids of processes that usr3 running. And changed grep command to grep "process id".
